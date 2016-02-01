@@ -1,0 +1,33 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newStorageAccountName": {
+      "value": "huihteststoragex3"
+    },
+    "storageAccountType": {
+      "value": "Standard_GRS"
+    },
+    "location": {
+      "value": "East US"
+    },
+    "adminUsername": {
+      "value": "AzureAdmin0"
+    },
+    "adminPassword": {
+      "value": "Citrix1234"
+    },
+    "adVMSize": {
+      "value": "Standard_D2"
+    },
+    "domainName": {
+      "value": "domaintestx2.net"
+    },
+    "addnsName": {
+      "value": "domaintestx2"
+    },
+    "assetLocation": {
+      "value": "https://huihaolbvt.file.core.windows.net/template/Template/"
+    }
+  }
+}
